@@ -7,7 +7,7 @@ pipeline
         {
             steps
             {
-                git 'https://github.com/agehma/mon18july.git'
+                git 'https://github.com/agehma/sun24july.git'
             }
         }
         stage('ContinuousBuild')
@@ -45,4 +45,5 @@ pipeline
         }
     }
 }
+
 
